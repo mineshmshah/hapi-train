@@ -6,12 +6,15 @@
   "scripts": {
     "test": "mocha tests/*",
     "start": "node ./index.js",
-    "devstart": "nodemon ./index.js"
+    "devstart": "nodemon ./index.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run devstart\" \"npm run client\""
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chai": "^4.1.2",
+    "concurrently": "^3.5.0",
     "hapi": "^16.6.2",
     "jasmine": "^2.8.0",
     "mocha": "^4.0.1",
