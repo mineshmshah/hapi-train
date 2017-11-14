@@ -1,0 +1,25 @@
+{
+  "name": "hapi-train",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*",
+    "start": "node ./index.js",
+    "devstart": "nodemon ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "hapi": "^16.6.2",
+    "jasmine": "^2.8.0",
+    "mocha": "^4.0.1",
+    "mongodb": "^2.2.33",
+    "nodemon": "^1.12.1",
+    "supertest": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/mongodb": "^2.2.15"
+  }
+}
