@@ -1,6 +1,6 @@
 {
   "/posts/*":{
-    "target": "localhost:3000/posts",
+    "target": "http://localhost:3000/posts",
     "secure": false,
     "changeOrigin": true,
     "logLevel": "debug",
