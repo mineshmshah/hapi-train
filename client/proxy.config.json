@@ -1,0 +1,9 @@
+{
+  "/posts/*":{
+    "target": "localhost:3000/posts",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug",
+    "pathRewrite": {"^/posts" : ""}
+  }
+}
